@@ -73,7 +73,7 @@ ul {
 /* section 2 */
 .flaves {
     padding: 80px 100px 0px 137px;
-    border-top: 7px solid #779611;
+    border-top: 2px solid #779611;
 }
 .flaves-title {
     font-family: "Exo 2",sans-serif;
@@ -145,7 +145,7 @@ ul {
 /* section 4 */
 .about {
     padding: 114px 100px 0px 137px;
-    border-top: 7px solid #779611;
+    border-top: 2px solid #779611;
     padding-bottom: 114px;
 }
 .about-container {
@@ -176,7 +176,7 @@ ul {
 /* footer */
 footer {
     padding: 60px 100px 60px 137px;
-    border-top: 7px solid #779611;
+    border-top: 2px solid #779611;
 }
 .footer-container {
     display: flex;
@@ -198,7 +198,7 @@ footer {
     flex-direction: column;
 }
 .footer-address {
-    line-height: none;
+    line-height: 2;
     font-family: "Montserrat",sans-serif;
 }
 .footer-title {
