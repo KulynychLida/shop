@@ -194,7 +194,7 @@ footer {
 }
 .footer-list {
     display: flex;
-    gap: 20px;
+    gap: 20;
     flex-direction: column;
 }
 .footer-address {
