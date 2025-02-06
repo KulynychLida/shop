@@ -21,7 +21,6 @@ ul {
 /* header */
 .header {
     padding: 41px 0px;
-    padding-left: 100px;
     border-bottom: 2px solid #779611;
 }
 .header-container {
@@ -40,9 +39,6 @@ ul {
     text-transform: capitalize;
 }
 /* section 1 */
-.hero {
-    padding: 0px 100px 0px 137px;
-}
 .hero-container {
     display: flex;
     align-items: center;
@@ -63,6 +59,7 @@ ul {
     padding-bottom: 50px;
 }
 .hero-link {
+    display: inline-block;
     background-color: #779611;
     color: #F9F9F9;
     font-size: 32px;
@@ -72,13 +69,13 @@ ul {
 }
 /* section 2 */
 .flaves {
-    padding: 80px 100px 0px 137px;
+    padding: 80px 0px 0px 0px;
     border-top: 2px solid #779611;
 }
 .flaves-title {
     font-family: "Exo 2",sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 36px;
     color: #779611;
     line-height: 43.2px;
     padding-bottom: 35px;
@@ -98,8 +95,7 @@ ul {
     font-size: 24px;
     font-weight: 400;
     color: #779611;
-    padding-top: 35px;
-    padding-bottom: 15px;
+    padding: 35px 0px 15px 60px;
 }
 .flaves-price {
     font-family: "Montserrat",sans-serif;
@@ -108,13 +104,12 @@ ul {
 }
 /* section 3 */
 .subscription {
-    padding: 80px 100px 80px 137px;
-    padding-bottom: 80px;
+    padding: 80px 0px;
 }
 .subscription-title {
     font-family: "Exo 2",sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 36px;
     color: #779611;
     line-height: 43.2px;
     padding-bottom: 35px;
@@ -134,8 +129,7 @@ ul {
     font-size: 24px;
     font-weight: 400;
     color: #779611;
-    padding-top: 35px;
-    padding-bottom: 15px;
+    padding: 35px 0px 15px 60px;
 }
 .subscription-price {
     font-family: "Montserrat",sans-serif;
@@ -144,9 +138,8 @@ ul {
 }
 /* section 4 */
 .about {
-    padding: 114px 100px 0px 137px;
+    padding: 114px 145px 114px 0px;
     border-top: 2px solid #779611;
-    padding-bottom: 114px;
 }
 .about-container {
     display: flex;
@@ -175,7 +168,7 @@ ul {
 }
 /* footer */
 footer {
-    padding: 60px 100px 60px 137px;
+    padding: 60px 0px 60px 0px;
     border-top: 2px solid #779611;
 }
 .footer-container {
@@ -198,6 +191,8 @@ footer {
     flex-direction: column;
 }
 .footer-address {
+    font-size: 20px;
+    font-weight: 400;
     line-height: 2;
     font-family: "Montserrat",sans-serif;
 }
