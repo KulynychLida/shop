@@ -138,8 +138,11 @@ ul {
 }
 /* section 4 */
 .about {
-    padding: 114px 145px 114px 0px;
+    padding: 114px 0px 114px 0px;
     border-top: 2px solid #779611;
+}
+.about-img {
+    padding-right: 145px;
 }
 .about-container {
     display: flex;
